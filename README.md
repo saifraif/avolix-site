@@ -44,3 +44,4 @@ Avolix is a full-stack client/project/task management system built by a solo dev
 ---
 
 ## 📁 Project Structure
+ 
