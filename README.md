@@ -1,40 +1,46 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Avolix – Client & Project Management System
 
-## Getting Started
+Avolix is a full-stack client/project/task management system built by a solo developer using Next.js and Supabase.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live App
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 [https://avolix-site.vercel.app](https://avolix-site.vercel.app)  
+(Replace with your real link after deploy)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Features
 
-## Learn More
+### ✅ Clients
 
-To learn more about Next.js, take a look at the following resources:
+- Add / Edit / Delete clients
+- View all clients in a dashboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ✅ Projects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Linked to clients
+- Add projects with start/end dates
+- View projects per client
 
-## Deploy on Vercel
+### ✅ Tasks
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Linked to projects
+- Add tasks with title, description, due date
+- View all tasks for each project
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# avolix-site
->>>>>>> 246943fb2fcc6c8ba783461af0eb648e0b2e24ac
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: Next.js 14 (App Router, TypeScript)
+- **Styling**: Tailwind CSS
+- **Backend**: Supabase (PostgreSQL, REST)
+- **Deployment**: Vercel
+- **Auth/DB**: Supabase
+- **Version Control**: Git + GitHub
+
+---
+
+## 📁 Project Structure
