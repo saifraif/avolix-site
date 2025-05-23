@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "avolix-app",
   "version": "0.1.0",
@@ -24,5 +25,26 @@
     "eslint-config-next": "15.3.2",
     "tailwindcss": "^4",
     "typescript": "^5"
+=======
+
+{
+  "name": "avolix-onepage-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "tailwindcss": "^3.3.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21"
+>>>>>>> 246943fb2fcc6c8ba783461af0eb648e0b2e24ac
   }
 }
